@@ -4,9 +4,9 @@ speeches <- harvard %>% filter(is_speech == 1) # 430577 obs. of 21 vars.
 rm(harvard)
 speeches <- speeches %>% filter(!is.na(parl_id)) # drop all without parl_id, 399256 obs. of 21 vars.
 
-# Split into parliaments
+# Next, we are going to label which parliament each speech was made in.
 
-# add in session names
+# Firstly, load a csv which is stored in data_raw
 
 years <- read.csv(here("data_raw", "years.csv"))
 
