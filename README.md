@@ -15,3 +15,4 @@ The contents of this repository are fully reproducible at no cost to the user. B
 # Results 
 The analysis code produces two figures: 
 
+![alt text](https://github.com/lenmetson/MSP-gender-speeches/output/main/speeches-women-plot.png?raw=true)
