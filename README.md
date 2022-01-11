@@ -15,4 +15,4 @@ The contents of this repository are fully reproducible at no cost to the user. B
 # Results
 The analysis code produces two figures:
 
-![Speeches by women over time in Scottish Parliament](https://github.com/lenmetson/MSP-gender-speeches/output/speeches-women-plot.png?raw=true)
+![Speeches by women over time in Scottish Parliament](https://github.com/lenmetson/MSP-gender-speeches/blob/508f6cdd6d030a64cd65184b48eb5266b74971c1/output/speeches-women-plot.png?raw=true)
