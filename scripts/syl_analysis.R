@@ -52,4 +52,4 @@ ggsave(here("output", "syllables-women-plot.png"), syllables_women_plot,
        height = 7)
 
 
-rm(syls_per_day_women, syls_per_day_f_plot, syls_per_day_men, syls_per_day_m_plot, syls_per_day_all, proportion_women, syllables_women_plot)
+rm(syls_per_day_women, syls_per_day_f_plot, syls_per_day_men, syls_per_day_m_plot, syls_per_day_all, proportion_women)

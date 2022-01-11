@@ -25,7 +25,7 @@ speeches_per_day_m_plot # view plot
 
 speeches_per_day_all <- speeches %>%
   group_by(date) %>%
-  summarise(n_speeches_all)
+  summarise(n_speeches_all = n())
 
 proportion_women_speeches <- full_join(speeches_per_day_all, speeches_per_day_women, by = "date")
 proportion_women_speeches[is.na(proportion_women_speeches)] <- 0 # days where women didn't speak any sylables are still kept becayse of full_join but there is an NA, so we need to convert NAs to 0%
@@ -46,4 +46,4 @@ ggsave(here("output", "speeches-women-plot.png"), speeches_women_plot,
        height = 7)
 
 rm(speeches_per_day_women,speeches_per_day_f_plot, speeches_per_day_men, speeches_per_day_m_plot,
-  speeches_per_day_all, proportion_women_speeches, speeches_women_plot)
+  speeches_per_day_all, proportion_women_speeches)

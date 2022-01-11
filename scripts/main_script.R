@@ -46,6 +46,9 @@ female_speech_per_msp <- female_speeches/female_msps
 male_speech_per_msp <- male_speeches/male_msps
 
 # Speech analysis (produces plot in output folder)
+source(here("scripts", "speeches_analysis.R")) # execute script, NOTE: rm line at end of script removes intermediatary variables
+speeches_women_plot # view plot
 
 # Syllable analysis (produces plot in output folder)
-source(here("scripts", "syl_analysis.R"))
+source(here("scripts", "syl_analysis.R")) # execute script
+syllables_women_plot # view plot
