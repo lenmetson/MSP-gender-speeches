@@ -13,6 +13,12 @@ The contents of this repository are fully reproducible at no cost to the user. B
 
 
 # Results
-The analysis code produces two figures:
+The analysis code produces two figures. These are stored in the output folder of this repo. I have also included them below.
+
+## Speeches
 
 ![Speeches by women over time in Scottish Parliament](https://github.com/lenmetson/MSP-gender-speeches/blob/508f6cdd6d030a64cd65184b48eb5266b74971c1/output/speeches-women-plot.png?raw=true)
+
+## Number of syllables
+
+![Number of syllables by women over time in Scottish Parliament](https://github.com/lenmetson/MSP-gender-speeches/blob/bc7f9aefd82067b249b914b66bc5cfeeef847bff/output/syllables-women-plot.png?raw=true)
