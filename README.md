@@ -12,7 +12,7 @@ The contents of this repository are fully reproducible at no cost to the user. B
 3. Open `MSP-gender-speeches.Rproj`. This will open a project in RStudio. Then, within R Studio, open the file `main_script.R` and follow the comments in the code.
 
 
-# Results 
-The analysis code produces two figures: 
+# Results
+The analysis code produces two figures:
 
-![alt text](https://github.com/lenmetson/MSP-gender-speeches/output/main/speeches-women-plot.png?raw=true)
+![Speeches by women over time in Scottish Parliament](https://github.com/lenmetson/MSP-gender-speeches/output/speeches-women-plot.png?raw=true)
