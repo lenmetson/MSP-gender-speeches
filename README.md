@@ -1,6 +1,6 @@
 # Are female MSPs getting more opportunities to speak in Scottish Parliament? - Lennard Metson
 
-This repository stores reproducible code for my descriptive analysis of how much women MSPs speak in the Scottish Parliament. Looking only at backbench MSPs, I find that the amount women speak, as measured by either number of speeches made or syllables spoken (a proxy for time), has stayed stable at around 30%. There has been no improvement in the amount backbench women MSPs are speaking. Th
+This repository stores reproducible code for my descriptive analysis of how much women MSPs speak in the Scottish Parliament. Looking only at backbench MSPs, I find that the amount women speak, as measured by either number of speeches made or syllables spoken (a proxy for time), has stayed stable at around 30%. There has been no improvement in the amount backbench women MSPs are speaking. The amount that women speak is roughly equal to the proportion of women there are amongst backbench MSPs, suggesting that the way to increase female represntation is to ensure more women are elected.  
 
 The analysis was adapted from a piece of assessed group work from a Data Science course where the projects aim was to use Data Science tools to interact with datasets and run basic analysis. The original project contained more features and output than is contained in this repository. It can be found as a separate [GitHub repository](https://github.com/lenmetson/speech-time). This repository contains only the R code for analysing speech time of MSPs.
 
