@@ -33,12 +33,14 @@ male_msps <- MSPs %>% filter(gender == "M") %>% nrow()
 female_msps <- MSPs %>% filter(gender == "F") %>% nrow()
 
 proportion_female_msps <- female_msps/nrow(MSPs)
+proportion_male_msps <- male_msps/nrow(MSPs)
 
 # Now we want to count the number of speeches by male/female male_msps
 male_speeches <- speeches %>% filter(gender == "M") %>% nrow()
 female_speeches <- speeches %>% filter(gender == "F") %>% nrow()
 
 proportion_female_speeches <- female_speeches/nrow(speeches)
+proportion_male_speeches <- male_speeches/nrow(speeches)
 
 # Look at relative ratio
 
@@ -52,3 +54,34 @@ speeches_women_plot # view plot
 # Syllable analysis (produces plot in output folder)
 source(here("scripts", "syl_analysis.R")) # execute script
 syllables_women_plot # view plot
+
+
+# Pie charts
+# MSPs pie chart
+
+df_msps <- data.frame( # create data
+  Gender = c("Men", "Women"),
+  proportion_msps = c(proportion_male_msps, proportion_female_msps))
+
+pie_msps <- ggplot(df_msps, aes(x="", y=proportion_msps, fill=Gender)) +
+  geom_bar(width = 1, stat = "identity") +
+  ylab("") + xlab("") +
+  scale_fill_manual(values = c("#1E88E5","#D81B60")) +
+  coord_polar("y", start = 0) +
+  theme_apa(legend.pos = "right",
+            legend.use.title = FALSE,
+            legend.font.size = 12,
+            x.font.size = 0,
+            y.font.size = 0,
+            facet.title.size = 0,
+            remove.y.gridlines = TRUE,
+            remove.x.gridlines = TRUE) 
+
+pie_msps
+
+
+
+# Speeches pie chart
+df_speeches <- data.frame( # create data
+  gender = c("Men", "Women"),
+  proportion_speeches = c(proportion_male_speeches, proportion_female_speeches))
