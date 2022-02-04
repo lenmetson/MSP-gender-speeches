@@ -695,41 +695,42 @@ hue-6-2: #e6c07b
     </head>
     <body class="vscode-body vscode-light">
         <h1 id="are-female-msps-getting-more-opportunities-to-speak-in-scottish-parliament---lennard-metson">Are female MSPs getting more opportunities to speak in Scottish Parliament? - Lennard Metson</h1>
-<p>This mini project seeks to make a descriptive analysis of the gender inequality between male and female backbench MSPs in the Scottish Parliament. The available data codes gender as a binary variable and thus the analysis is limited to comparing &quot;male&quot; and &quot;female&quot; MSPs.</p>
-<blockquote>
-<p>The key findings are:</p>
+<h1 id="-motivation">🤔 Motivation</h1>
+<p>Studies of (decriptive) gender representation tend to compare the proportion of female MPs and with the population.</p>
+<p>We wondered if measuring the time that legislators speak might produce a different result...</p>
+<p>... and it didn't in this case. BUT...</p>
+<p>..this project is entirely descriptive, we can't say why the proportions of women and speech-time by women is similar. Therefore, we can't generalise this to be the case everywhere. It would be interesting to replicate the analysis in different parliaments and see if the same result is found.</p>
+<h1 id="-results">📊 Results</h1>
+<p>Before we discuss the results, one quick note: the available data only included a binary measure of gender. Therefore, the analysis is unfortunatley restricted to binary gender (i.e. &quot;male&quot; versus &quot;female&quot; MSPs)</p>
+<h1 id="1️-the-proportion-of-backbench-msps-who-are-women-has-stayed-pretty-much-the-same-over-different-parliaments">1️ The proportion of backbench MSPs who are women has stayed pretty much the same over different parliaments</h1>
+<p><img src="https://github.com/lenmetson/MSP-gender-speeches/blob/f91974cbe65e84610e20a8d33f60d66b80685871/output/pr-women-parly.png?raw=true" alt="Number of backbench MSPs who are women by session of Scottish Parliament"></p>
+<h1 id="2️-the-proprotion-of-backbench-speeches-that-are-by-women-has-stayed-pretty-much-the-same-and-is-roughly-proportional-to-the-number-of-women">2️ The proprotion of backbench speeches that are by women has stayed pretty much the same and is roughly proportional to the number of women</h1>
+<p><img src="https://github.com/lenmetson/MSP-gender-speeches/blob/508f6cdd6d030a64cd65184b48eb5266b74971c1/output/speeches-women-plot.png?raw=true" alt="Speeches by women over time in Scottish Parliament"></p>
+<h1 id="3️-the-same-is-true-if-we-measure-speech-time-by-the-sum-of-sylables-in-the-words-male-and-female-msps-use">3️ The same is true if we measure speech time by the sum of sylables in the words male and female MSPs use</h1>
+<p><img src="https://github.com/lenmetson/MSP-gender-speeches/blob/bc7f9aefd82067b249b914b66bc5cfeeef847bff/output/syllables-women-plot.png?raw=true" alt="Number of syllables by women over time in Scottish Parliament"></p>
+<h1 id="-where-next">⏩ Where next?</h1>
+<p>There are a few ways of extending the analysis including...</p>
 <ul>
-<li>
-<p>There has been no increase in the proportion of female MSPs elected as backbench MSPs. The average proportion of backbench MSPs who are female across all parliaments analysed is just 36.2%. Around 51% of the Scottish population are female. Therefore, disproptionalty female backbench MSPs to the population.</p>
-</li>
-<li>
-<p>The time female backbench MSPs get to speak is proportional to the number there are (measured both by total syllables and number of speeches made). However, there has been no increase in the speech-time that women are given over time. I.e. there is no compensation for there being less women.</p>
-</li>
-<li>
-<p>Women are descriptivley under-represented by backbench MSPs in the Scottish Parliament. This is driven primarily by there not being as many women as men who are backbench MSPs. Women backbench MSPs speech for a time that is roughly proportional to the number of backbench women MSPs there are.</p>
-</li>
+<li>Applying to different parliaments</li>
+<li>Using a better measure of gender which isn't binary</li>
+<li>Including ministers in the analysis</li>
+<li>Finding out about what female MSPs say</li>
 </ul>
-</blockquote>
-<h1 id="background">Background</h1>
-<p>This file can be read on a <a href="https://lenmetson.github.io/MSP-gender-speeches/">GitHub Pages site</a>, or the original <a href="https://github.com/lenmetson/MSP-gender-speeches">GitHub repository</a>.</p>
-<p>This repository stores reproducible code for my descriptive analysis of how much women MSPs speak in the Scottish Parliament. Looking only at backbench MSPs, I find that the amount women speak, as measured by either number of speeches made or syllables spoken (a proxy for time), has stayed stable at around 30%. There has been no improvement in the amount backbench women MSPs are speaking. The amount that women speak is roughly equal to the proportion of women there are amongst backbench MSPs, suggesting that the way to increase female representation is to ensure more women are elected.</p>
-<p>The analysis was adapted from a piece of assessed group work from a Data Science course where the projects aim was to use Data Science tools to interact with datasets and run basic analysis. The original project contained more features and output than is contained in this repository. It can be found as a separate <a href="https://github.com/lenmetson/speech-time">GitHub repository</a>. This repository contains only the R code for analysing speech time of MSPs.</p>
-<p>I use the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE">ParlScot database</a> created and maintained by Daniel Braby and Fraser Stewart.</p>
-<h1 id="reproducibility-note">Reproducibility note</h1>
+<h1 id="-replication">🔁 Replication</h1>
+<p>The R code needed to obtain and analyse the data is all available on this GitHub repository.</p>
+<p>Feel free to reproduce, edit tweak and extend and I would love to chat if you do 😀 (Twitter: @len_metson)</p>
+<h1 id="-how-to-replicate">🔁 How to replicate</h1>
 <p>The contents of this repository are fully reproducible at no cost to the user. Because of R's <a href="https://cran.r-project.org/web/packages/here/index.html"><code>here</code> package</a>, the code can be run on any machine with any operating system that has <a href="https://www.r-project.org/">R</a> and <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a> installed. You do not need to change working directories. To reproduce the code, complete the following steps:</p>
 <ol>
 <li>Ensure R and RStudio are installed.</li>
 <li>Clone the repository to a local folder on your computer.</li>
 <li>Open <code>MSP-gender-speeches.Rproj</code>. This will open a project in RStudio. Then, within R Studio, open the file <code>main_script.R</code> and follow the comments in the code.</li>
 </ol>
-<h1 id="results">Results</h1>
-<p>The analysis code produces two figures. These are stored in the output folder of this repo. I have also included them below.</p>
-<h2 id="number-of-backbench-msps-who-are-women-by-parliament">Number of backbench MSPs who are women by Parliament</h2>
-<p><img src="https://github.com/lenmetson/MSP-gender-speeches/blob/f91974cbe65e84610e20a8d33f60d66b80685871/output/pr-women-parly.png?raw=true" alt="Number of backbench MSPs who are women by session of Scottish Parliament"></p>
-<h2 id="speeches">Speeches</h2>
-<p><img src="https://github.com/lenmetson/MSP-gender-speeches/blob/508f6cdd6d030a64cd65184b48eb5266b74971c1/output/speeches-women-plot.png?raw=true" alt="Speeches by women over time in Scottish Parliament"></p>
-<h2 id="number-of-syllables">Number of syllables</h2>
-<p><img src="https://github.com/lenmetson/MSP-gender-speeches/blob/bc7f9aefd82067b249b914b66bc5cfeeef847bff/output/syllables-women-plot.png?raw=true" alt="Number of syllables by women over time in Scottish Parliament"></p>
+<h1 id="ℹ️-background-to-the-project">ℹ️ Background to the project</h1>
+<p>This file can be read on a <a href="https://lenmetson.github.io/MSP-gender-speeches/">GitHub Pages site</a>, or the original <a href="https://github.com/lenmetson/MSP-gender-speeches">GitHub repository</a>.</p>
+<p>This repository stores reproducible code for my descriptive analysis of how much women MSPs speak in the Scottish Parliament. Looking only at backbench MSPs, I find that the amount women speak, as measured by either number of speeches made or syllables spoken (a proxy for time), has stayed stable at around 30%. There has been no improvement in the amount backbench women MSPs are speaking. The amount that women speak is roughly equal to the proportion of women there are amongst backbench MSPs, suggesting that the way to increase female representation is to ensure more women are elected.</p>
+<p>The analysis was adapted from a piece of assessed group work from a Data Science course where the projects aim was to use Data Science tools to interact with datasets and run basic analysis. The original project contained more features and output than is contained in this repository. It can be found as a separate <a href="https://github.com/lenmetson/speech-time">GitHub repository</a>. This repository contains only the R code for analysing speech time of MSPs.</p>
+<p>I use the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE">ParlScot database</a> created and maintained by Daniel Braby and Fraser Stewart.</p>
 
     </body>
     </html>
