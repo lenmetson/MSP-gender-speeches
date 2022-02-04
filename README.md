@@ -1,6 +1,6 @@
 # Are female MSPs getting more opportunities to speak in Scottish Parliament? - Lennard Metson
 
-## 🤔 Motivation 
+# 🤔 Motivation 
 Studies of (decriptive) gender representation tend to compare the proportion of female MPs and with the population. 
 
 We wondered if measuring the time that legislators speak might produce a different result...
