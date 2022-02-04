@@ -20,9 +20,9 @@ The contents of this repository are fully reproducible at no cost to the user. B
 # Results
 The analysis code produces two figures. These are stored in the output folder of this repo. I have also included them below.
 
-## Number of backbench MSPs who are women 
+## Number of backbench MSPs who are women over time  
 
-![Number of backbench MSPs who are women by session of Scottish Parliament]()
+![Number of backbench MSPs who are women by session of Scottish Parliament](https://github.com/lenmetson/MSP-gender-speeches/blob/f91974cbe65e84610e20a8d33f60d66b80685871/output/pr-women-parly.png?raw=true)
 
 ## Speeches
 

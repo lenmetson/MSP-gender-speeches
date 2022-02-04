@@ -108,3 +108,4 @@ pie_msps
 df_speeches <- data.frame( # create data
   gender = c("Men", "Women"),
   proportion_speeches = c(proportion_male_speeches, proportion_female_speeches))
+
