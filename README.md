@@ -1,5 +1,17 @@
 # Are female MSPs getting more opportunities to speak in Scottish Parliament? - Lennard Metson
 
+This mini project seeks to make a descriptive analysis of the gender inequality between male and female backbench MSPs in the Scottish Parliament. The available data codes gender as a binary variable and thus the analysis is limited to comparing "male" and "female" MSPs.
+
+> The key findings are: 
+> 
+>  * There has been no increase in the proportion of female MSPs elected as backbench MSPs. The average proportion of backbench MSPs who are female across all parliaments analysed is just 36.2%. Around 51% of the Scottish population are female. Therefore, disproptionalty female backbench MSPs to the population. 
+>
+> * The time female backbench MSPs get to speak is proportional to the number there are (measured both by total syllables and number of speeches made). However, there has been no increase in the speech-time that women are given over time. I.e. there is no compensation for there being less women. 
+>
+> * Women are descriptivley under-represented by backbench MSPs in the Scottish Parliament. This is driven primarily by there not being as many women as men who are backbench MSPs. Women backbench MSPs speech for a time that is roughly proportional to the number of backbench women MSPs there are.  
+
+
+# Background 
 This file can be read on a [GitHub Pages site](https://lenmetson.github.io/MSP-gender-speeches/), or the original [GitHub repository](https://github.com/lenmetson/MSP-gender-speeches).
 
 This repository stores reproducible code for my descriptive analysis of how much women MSPs speak in the Scottish Parliament. Looking only at backbench MSPs, I find that the amount women speak, as measured by either number of speeches made or syllables spoken (a proxy for time), has stayed stable at around 30%. There has been no improvement in the amount backbench women MSPs are speaking. The amount that women speak is roughly equal to the proportion of women there are amongst backbench MSPs, suggesting that the way to increase female representation is to ensure more women are elected.  
@@ -20,7 +32,7 @@ The contents of this repository are fully reproducible at no cost to the user. B
 # Results
 The analysis code produces two figures. These are stored in the output folder of this repo. I have also included them below.
 
-## Number of backbench MSPs who are women over time  
+## Number of backbench MSPs who are women by Parliament 
 
 ![Number of backbench MSPs who are women by session of Scottish Parliament](https://github.com/lenmetson/MSP-gender-speeches/blob/f91974cbe65e84610e20a8d33f60d66b80685871/output/pr-women-parly.png?raw=true)
 
