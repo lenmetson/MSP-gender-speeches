@@ -22,7 +22,7 @@ Before we discuss the results, one quick note: the available data only included 
 
 ![Speeches by women over time in Scottish Parliament](https://github.com/lenmetson/MSP-gender-speeches/blob/508f6cdd6d030a64cd65184b48eb5266b74971c1/output/speeches-women-plot.png?raw=true)
 
-3️ The same is true if we measure speech time by the sum of sylables in the words male and female MSPs use
+# 3️ The same is true if we measure speech time by the sum of sylables in the words male and female MSPs use
 
 ![Number of syllables by women over time in Scottish Parliament](https://github.com/lenmetson/MSP-gender-speeches/blob/bc7f9aefd82067b249b914b66bc5cfeeef847bff/output/syllables-women-plot.png?raw=true)
 
