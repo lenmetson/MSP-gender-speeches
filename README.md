@@ -1,4 +1,8 @@
-# Are female MSPs getting more opportunities to speak in Scottish Parliament? - Lennard Metson
+# 🔎 Mini Project: Gender Representation in Scottish Parliament
+
+Infomation
+* 💽 [ParlScot](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE) Braby & Stewart (2021)
+* Spin-off project from [speech-time](https://github.com/lenmetson/speech-time).
 
 # 🤔 Motivation 
 Studies of (decriptive) gender representation tend to compare the proportion of female MPs and with the population. 
